@@ -315,8 +315,8 @@
 			$.supersized({
 				slides  :  	
 				[ 
-					{ image : 'images/betweentrees_almostBW.jpg' },
-					//{ image : 'http://placehold.it/1600x1067' },//
+					//{ image : 'images/overwater.jpg' },
+					{ image : 'images/turnback.jpg' },//
 				],
 				horizontal_center : 0,
 				vertical_center : 0,
