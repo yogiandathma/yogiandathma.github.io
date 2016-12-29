@@ -1040,11 +1040,11 @@ a:hover .de-icon.effect3{
 
 .btn-default{
 /*	background-color:#bb5844 !important; */
-	background-color:$0066ff;
+	background-color:#0066ff !important;
 	color:#fff !important;
 	border-radius: 0 !important;
 /*	border-color:#bb5844 !important; */
-	border-color:#0066ff;
+	border-color:#0066ff !important;
 	font-family: 'Montserrat', sans-serif !important;
 	font-size:15px !important;
 	font-weight:normal !important;
@@ -1460,10 +1460,22 @@ a:hover .de-icon.effect3{
 /* 04-4 Gallery					        	     */
 /* ----------------------------------------------*/
 #gallery-main-photo{
-	background-attachment:scroll;
-	background-position:center center !important;
+	background:url(../images/boston_panorama.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
 	height:400px;
+
+	/*background-attachment:scroll; */
+	/*background-position:center center !important; */
+	/*height:400px;*/
 }
+
+.safari-mac #gallery-main-photo{
+	background-attachment: scroll;
+}
+
 
 /* 04-5 Events and Parties                       */
 /* ----------------------------------------------*/
