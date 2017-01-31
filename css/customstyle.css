@@ -575,24 +575,24 @@ p a:hover{
 	padding:40px 0;
 }
 
-#gallery-main-photo{
-	background:url(http://placehold.it/1600x712);
-	background-size:cover;
-	background-attachment:fixed;
-	background-position:top center;
-	background-repeat:no-repeat;
-	height:420px;
-	/*Fullsize layout will replace this height   */
+#gallery-main-photo{                            
+	background:url(../images/boston_panorama.jpg); 
+	background-size:cover;                        
+	background-attachment:fixed;                  
+	background-position:top center;                
+	background-repeat:no-repeat;                   
+	height:420px;                                 
+	/*Fullsize layout will replace this height    */
 	/*with h10-h100 class   */
 }
 
-.safari-mac #gallery-main-photo{
-	background-attachment: scroll;
-}
+.safari-mac #gallery-main-photo{ 
+	background-attachment: scroll; 
+} 
 
 #gallery-photo{
 	padding:0 100px 100px 100px
-}	
+}
 
 
 /* 04-5 Events and Parties                       */
@@ -728,7 +728,7 @@ p a:hover{
 	padding:0 50px 100px 50px;
 }
 
-/* 04-8b Contacct                                */
+/* 04-8b Contact                                */
 /* --------------------------------------------- */
 #contact-main-photo{
 	background:url(../images/finishing.jpg);
@@ -772,10 +772,10 @@ p a:hover{
 }
 
 #rsvp-main-photo{
-	background:url(http://placehold.it/1600x1067);
+	background:url(../images/invitation.jpeg);
 	background-size:cover;
 	background-attachment:fixed;
-	background-position:top center;
+	background-position:center center;
 	background-repeat:no-repeat;
 	height:420px;
 	/*Fullsize layout will replace this height   */
@@ -1463,9 +1463,9 @@ a:hover .de-icon.effect3{
 	background:url(../images/boston_panorama.jpg);
 	background-size:cover;
 	background-attachment:fixed;
-	background-position:center center;
+	background-position:top center;
 	background-repeat:no-repeat;
-	height:400px;
+	height:420px;
 
 	/*background-attachment:scroll; */
 	/*background-position:center center !important; */
@@ -1512,11 +1512,11 @@ a:hover .de-icon.effect3{
 
 /* 04-11 RSVP			                         */
 /* ----------------------------------------------*/
-#rsvp-main-photo{
-	background-attachment:scroll;
-	background-position:top center !important;
-	height:400px;
-}
+/*#rsvp-main-photo{ */
+/*	background-attachment:scroll; */
+/*	background-position:top center !important; */
+/*	height:400px; */
+/*} */
 
 /* 05. Slide Layout to Right					 */
 /* ----------------------------------------------*/
