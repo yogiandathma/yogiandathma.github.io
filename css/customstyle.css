@@ -602,7 +602,7 @@ p a:hover{
 }
 
 #events-main-photo{
-	background:url(http://placehold.it/1600x1067);
+	background:url(../images/flowers.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	background-position:center center;
