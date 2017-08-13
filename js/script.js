@@ -315,8 +315,10 @@
 			$.supersized({
 				slides  :  	
 				[ 
-					//{ image : 'images/overwater.jpg' },
-					{ image : 'images/turnback.jpg' },//
+					{ image : 'images/together.jpg' },
+					{ image : 'images/blessing.jpg' },
+					{ image : 'images/bridge.jpg' },
+					{ image : 'images/orchids.jpg' },//
 				],
 				horizontal_center : 0,
 				vertical_center : 0,
